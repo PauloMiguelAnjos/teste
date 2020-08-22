@@ -1,19 +1,83 @@
 body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
   background-color: #EAF6F6;
 }
 
-hr {
-  background-color: white;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%   }
-
 h1 {
-  color: #68b0ab;
+  font-size: 5.625rem;   /* 1 rem = 16px   sample 90px = 5.625rem */
+  margin: 50px auto 0 auto ;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+    font-size: 2.5rem;   /* 1 rem = 16px   sample 90px = 5.625rem */
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+
 }
 
 h3 {
-  color: #68b0ab;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.cargo {
+      line-height: 2;
+      font-size: 2.5rem;   /* 1 rem = 16px   sample 90px = 5.625rem */
+      color: #66BFBF;
+      font-weight: normal;
+}
+
+.top-container {
+/*  background-color: #e4f9f5;  */
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.system {
+  text-decoration: underline;
+}
+
+
+.top-cloud {
+position: absolute;
+right: 300px;
+top:50px;
+
+}
+
+.bottom-cloud {
+ position: absolute ;
+ left: 300px;
+ top:300px;
+
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.fry-egg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+
+.zoom {
+  width: 25%;
+    float: right;
+    margin-left: 30px;
+
 }
